@@ -1,0 +1,43 @@
+
+Using time.clock
+----------------
+
+python timestamp.py
+
+Using timeit
+------------
+
+# Slow sum
+python -m timeit -s "import loop" "loop.main()"
+
+# Fast sum
+python -m timeit -s "import sum" "sum.main()"
+
+
+python -m timeit "import slow"
+
+
+
+Using profile simple example
+----------------------------
+
+# Run
+python profile.py
+
+
+# Print
+python profile_stats.py
+
+# Visualise
+snakeviz dump.profile
+
+Using profile simple example
+----------------------------
+
+python realworld.py
+
+
+python profile_stats.py
+
+
+snakeviz realworld.profile
