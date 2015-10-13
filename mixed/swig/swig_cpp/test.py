@@ -1,3 +1,5 @@
+from helloworld import HelloWorld, HelloWorld2
+
 hw = HelloWorld()
 r1 = 2
 r2 = 3
