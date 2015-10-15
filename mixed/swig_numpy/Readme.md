@@ -1,3 +1,5 @@
+A Swig numpy demo, taken from https://gist.github.com/mattbierbaum/1189856
+
 Install with
 
 ```bash
