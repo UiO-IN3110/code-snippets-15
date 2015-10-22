@@ -24,3 +24,4 @@ a = numpy.ones(4)
 a.shape = (2, 2)
 b = a.copy()
 a *= 2
+print sum_func(a, b)
