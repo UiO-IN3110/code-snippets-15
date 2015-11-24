@@ -1,0 +1,52 @@
+
+Benchmarking weave blitz
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking weave inline
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking weave inline OpenMP
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking weave inline OpenMP alt.
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking pure C
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking OpenMP
+  Running parameter set #1
+  Running parameter set #2
+
+Benchmarking OpenMP alt.
+  Running parameter set #1
+  Running parameter set #2
+
+Results for parameter set #1: [0, 1000, 0.1, 50, 100, 0, 1, 1.0]
+implementation              abs. time   rel. time
+-------------------------------------------------
+weave blitz                     0.089        5.48
+weave inline                    0.089        5.47
+weave inline OpenMP             0.039        2.44
+weave inline OpenMP alt.        0.039        2.44
+pure C                          0.048        2.94
+OpenMP                          0.018        1.12
+OpenMP alt.                     0.016        1.00
+
+
+Results for parameter set #2: [0, 5000, 0.1, 100, 200, 0, 1, 1.0]
+implementation              abs. time   rel. time
+-------------------------------------------------
+weave blitz                     1.297        5.11
+weave inline                    1.787        7.04
+weave inline OpenMP             0.795        3.13
+weave inline OpenMP alt.        0.764        3.01
+pure C                          0.871        3.43
+OpenMP                          0.263        1.04
+OpenMP alt.                     0.254        1.00
+
